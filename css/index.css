@@ -115,92 +115,10 @@ header .logo {
     margin: 28px 0 0 91px;
 }
 
-
-header nav a:link {
-	text-decoration: none;
-	color:lightgray;
-}
-  
-header nav a:visited {
-	text-decoration: none;
-	color:lightgray;
-
-}
-  
-header nav a:hover {
-	text-decoration: underline;
-	color:lightgray;
-
-}
-  
-header nav a:active {
-	text-decoration: underline;
-	color:lightgray;
-
+.special1 {
+	margin-top:95px;
 }
 
-header nav a {
-	font-family: 'Titillium Web', sans-serif;
-	text-decoration: none;
-	color:lightgray;
-}
-
-header {
-    display:flex;
-    width:880px;
-}
-
-header nav {
-    display:flex;
-	align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    border: 1px solid red;
-    width:610px;
-}
-
-.headerTOP {
-	width:100%;
-	display:flex;
-	align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.headerTEXT {
-	width:475px;
-	display:flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.logo {
-    display:inline;
-    border:1px solid red;
-}
-
-
-.article2 {
-	width:33%;
-	padding:10px 0px;
-	margin-bottom:20px;
-	vertical-align: top;
-}
-
-
-
-.middle-img {
-	text-align:center;
-}
-
-.codeSNIP {
-	margin-top: 55px;
-}
-
-.IOD {
-	line-height: 1;
-	font-size: 72px;
-}
 .button {
 	display:flex;
 	align-items:flex-start;
@@ -209,7 +127,12 @@ header nav {
 	justify-content: space-around;
 }
 
-#button {
+.IOD {
+	line-height: 1;
+	font-size: 72px;
+}
+
+body div h1 .GetStartedbutton {
 	font-family: 'Titillium Web', sans-serif;
 	background-color:white;
 	text-align:center;
@@ -220,15 +143,21 @@ header nav {
 	font-size:16px;
 }
 
+.codeSNIP {
+	margin-top: 55px;
+}
+
+section .text {
+	line-height: 1;
+	font-size:14;
+	text-align:left;
+}
+
 .section1 {
 	border-top: 2px solid grey;
 	width:100%;
 	text-align:center;
 	display:flex;
-}
-
-.special1 {
-	margin-top:95px;
 }
 
 .article {
@@ -239,43 +168,32 @@ header nav {
 	text-align:left;
 }
 
+.middle-img {
+	text-align:center;
+}
 
 .section2 {
 	border-bottom: 2px solid grey;
 	display:flex;
 }
 
-
-.copyright {
-	text-decoration:none;
+.article2 {
+	width:33%;
+	padding:10px 0px;
+	margin-bottom:20px;
+	vertical-align: top;
 }
 
 .electronic {
 	line-height:.5;
 }
 
-
-section .text {
-	line-height: 1;
-	font-size:14;
-	text-align:left;
+.copyright {
+	text-decoration:none;
 }
 
-.navID {
-	display:flex;
-	justify-content: space-around;
-}
 
-nav {
-	display:flex;	
-	justify-content:space-around; 
-}
-/* 
-.header1 {
-	display:flex;
-	align-items: center;
-	justify-content: center;
-} */
+/* FOR SERVICES PAGE */
 
 .services-header-img {
 	margin-top:20px;
