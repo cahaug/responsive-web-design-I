@@ -76,11 +76,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
 header nav {
-  display: inline-block;
+  display: flex;
   width: 691px;
-  vertical-align: top;
+  justify-content: space-around;
   margin-top: 35px;
 }
 
@@ -105,9 +109,13 @@ header nav a:last-child {
 
 header .logo {
   margin-top: 25px;
+  margin-left:25px;
 }
 
 /* cta */
+.cta {
+    display: flex;
+}
 
 .cta .cta-text {
   display: inline-block;
@@ -171,6 +179,14 @@ header .logo {
   width: 275px;
   display: inline-block;
   margin-right: 12px;
+}
+
+.main-content .top-content {
+    display: flex;
+}
+
+.main-content .top-content {
+    display: flex;
 }
 
 .main-content .bottom-content .text-content:last-child {
